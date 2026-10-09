@@ -1,0 +1,71 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.p12
+*.pfx
+*.key
+secrets/
+credentials/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Next.js and Node
+node_modules/
+.next/
+out/
+.turbo/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and recordings
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+recordings/
+user_data/
+conversation_exports/
+
+# Models and large weights
+models/
+model_cache/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Backups and local reports
+backups/
+*.backup
+*.backup-*
+*.bak
+*.tmp
+*.log
+test-results/
+playwright-report/
